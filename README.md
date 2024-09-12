@@ -1,7 +1,7 @@
 
 ## Getting Started
 
-First install dependencies, run the development server:
+First install dependencies then run the development server (also you can build a production version by running npm run build)
 
 ```bash
 npm install
@@ -13,7 +13,11 @@ yarn dev
 pnpm install
 pnpm dev
 ```
+In a second terminal run the middleware server that handle the farcaster frame
 
-Open [http://localhost:3000/api/og/?desc=&a=[1-8+14+15+16][15-20]&fid=510172](http://localhost:3000) with your browser to see the result.
+```bash
+node server.mjs
+```
+You can run them definitively using nohup or pm2 library 
 
-You'll need to run independent server to handle requests/responses to the nextjs og server
+## Enjoy :)
